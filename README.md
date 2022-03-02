@@ -1,4 +1,4 @@
-# freeCodeCamp
+# freeCodeCamp projects
 My solutions for freeCodeCamp projects.
 
 <br>
