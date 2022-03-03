@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset="UTF-8">
+		<link rel="stylesheet" href="/index.css">
+		<title>Flo's survey form</title>
+	</head>
+
+    <body>
+		<div id="container">
+			<header>
+				<h1 = id="title">Flo's survey form</h1>
+				<p id="description">Basic informations about your
+				preferences with programatic languages.</p>
+			</header>
+
+			<main>
+				<form action="" id="survey-form">
+					<div id="name-form">
+						<label for="name" id="name-label">Name</label>
+						<div id="name-input">
+							<input type="text" id="name" name="name"
+							required="required"	placeholder="Enter your name">
+						</div>
+					</div>
+
+					<div id="email-form">
+						<label for="email" id="email-label">Email</label>
+						<div id="email-input">
+							<input type="email" id="email" name="email"
+							required="required" placeholder="Enter your email">
+						</div>
+					</div>
+
+					<div id="age">
+						<label for="number" id="number-label">Age (optional)</label>
+						<div id="number-input">
+							<input type="number" id="number" name="age" min="18"
+								max="100" placeholder="Enter your age">
+						</div>
+					</div>
+
+					<div id="dropdown-form">
+						<label for="dropdown" id="dropdown-label">
+							Favorite language
+						</label>
+						<div id="dropdown-input">
+							<select id="dropdown" name="fav-lang">
+								<option value="JS">JS</option>
+								<option value="PHP">PHP</option>
+								<option value="C">C</option>
+								<option value="Java">Java</option>
+							</select>
+						</div>
+					</div>
+
+					<span id="span-db">Which database do you prefer ?</span>
+					<div id="radio">
+						<label for="MongoDB">MongoDB</label>
+						<input type="radio" id="MongoDB" name="radio"
+						value="MongoDB">
+
+						<label for="SQLite">SQLite</label>
+						<input type="radio" id="SQLite" name="radio"
+						value="SQLite">
+
+						<label for="mariaDB">mariaDB</label>
+						<input type="radio" id="mariaDB" name="radio"
+						value="mariaDB">
+					</div>
+
+					<span id="span-lg">Which language(s) do you master ?</span>
+					<div id="checkbox">
+						<label for="JS">JS</label>
+						<input type="checkbox" id="JS" name="JS" value="JS">
+
+						<label for="PHP">PHP</label>
+						<input type="checkbox" id="PHP" name="PHP" value="PHP">
+
+						<label for="CSS">CSS</label>
+						<input type="checkbox" id="CSS" name="CSS" value="CSS">
+
+						<label for="JAVA">JAVA</label>
+						<input type="checkbox" id="JAVA" name="JAVA"
+						value="JAVA">
+					</div>
+
+					<div id="textarea-form">
+						<label for="textarea" id="textarea-label">
+							Any comments ?
+						</label>
+						<div id="textarea-input">
+							<textarea id="textarea" name="textarea" cols="40"
+								rows="10" placeholder="Enter your comments..."></textarea>
+						</div>
+					</div>
+
+					<div id="submit-button">
+						<button form="survey-form" id="submit">Submit</button>
+					</div>
+				</form>
+			</main>
+		</div>
+    </body>
+</html>
