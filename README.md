@@ -9,3 +9,7 @@ My solutions for freeCodeCamp projects.
 3. Landing page => https://codepen.io/Flo-Slv/pen/BamgWRj
 4. Technical documentation => https://codepen.io/Flo-Slv/pen/ZEvzLNb
 5. Personal portfolio webpage => https://codepen.io/Flo-Slv/pen/yLpJeXz
+<br>
+
+### JavaScript Algorithms and Data Structures
+1. Palindrome => [here](https://github.com/Flo-Slv/freeCodeCamp/blob/main/JavaScriptAlgorithmsAndDataStructures/palindrome.js)
