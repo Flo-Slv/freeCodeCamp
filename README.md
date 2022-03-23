@@ -14,3 +14,4 @@ My solutions for freeCodeCamp projects.
 ### JavaScript Algorithms and Data Structures
 1. Palindrome => [here](https://github.com/Flo-Slv/freeCodeCamp/blob/main/JavaScriptAlgorithmsAndDataStructures/palindrome.js)
 2. Roman numeral convert => [here](https://github.com/Flo-Slv/freeCodeCamp/blob/main/JavaScriptAlgorithmsAndDataStructures/romanNumeralConverter.js)
+3. Caesars Cipher => [here](https://github.com/Flo-Slv/freeCodeCamp/blob/main/JavaScriptAlgorithmsAndDataStructures/caesarsCipher.js)
